@@ -1,5 +1,5 @@
-CREATE DATABASE PDN;
-\c PDN;
+CREATE DATABASE pdn;
+\c pdn;
 --P1
 
 CREATE TABLE Sailor (
@@ -162,4 +162,4 @@ INSERT INTO Reserves VALUES (71,	105,	'Wednesday');
 DELETE FROM Sailor WHERE Sid = 74;
 DELETE FROM Boat WHERE Bid = 101;
 \c postgres;
-DROP DATABASE PDN;
+DROP DATABASE pdn;
