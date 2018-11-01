@@ -1,0 +1,1 @@
+Basic queries in SQL.
